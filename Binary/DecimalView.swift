@@ -20,7 +20,7 @@ struct DecimalView: View {
             Text("Enter Decimal:")
                 .multilineTextAlignment(.center)
                 .font(.largeTitle)
-            TextField("Enter Decimal; Any Number!", text: $PutInDecimal)
+            TextField("Any Number!", text: $PutInDecimal)
                 .multilineTextAlignment(.center)
                 .frame(width: 300)
                 .textFieldStyle(.roundedBorder)
