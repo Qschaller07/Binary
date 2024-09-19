@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB8CE0EB2C9C65E700993C73 /* DecBinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8CE0EA2C9C65E700993C73 /* DecBinView.swift */; };
 		ABE7C1D52C8F407900843F84 /* BinaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE7C1D42C8F407900843F84 /* BinaryApp.swift */; };
 		ABE7C1D72C8F407900843F84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE7C1D62C8F407900843F84 /* ContentView.swift */; };
 		ABE7C1D92C8F407A00843F84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABE7C1D82C8F407A00843F84 /* Assets.xcassets */; };
 		ABE7C1DC2C8F407A00843F84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABE7C1DB2C8F407A00843F84 /* Preview Assets.xcassets */; };
+		EE331C492C9C6864008E2C75 /* DecimalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE331C482C9C6864008E2C75 /* DecimalView.swift */; };
 		EE6278892C99C74E00116EA5 /* BinaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6278882C99C74E00116EA5 /* BinaryView.swift */; };
 		EE8CC6BF2C9C643000088A38 /* HexaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8CC6BE2C9C643000088A38 /* HexaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AB8CE0EA2C9C65E700993C73 /* DecBinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecBinView.swift; sourceTree = "<group>"; };
 		ABE7C1D12C8F407900843F84 /* Binary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Binary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE7C1D42C8F407900843F84 /* BinaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryApp.swift; sourceTree = "<group>"; };
 		ABE7C1D62C8F407900843F84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ABE7C1D82C8F407A00843F84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABE7C1DB2C8F407A00843F84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE331C482C9C6864008E2C75 /* DecimalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalView.swift; sourceTree = "<group>"; };
 		EE6278882C99C74E00116EA5 /* BinaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryView.swift; sourceTree = "<group>"; };
 		EE8CC6BE2C9C643000088A38 /* HexaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,7 +61,7 @@
 				EE6278882C99C74E00116EA5 /* BinaryView.swift */,
 				EE8CC6BE2C9C643000088A38 /* HexaView.swift */,
 				ABE7C1D62C8F407900843F84 /* ContentView.swift */,
-				AB8CE0EA2C9C65E700993C73 /* DecBinView.swift */,
+				EE331C482C9C6864008E2C75 /* DecimalView.swift */,
 				ABE7C1D82C8F407A00843F84 /* Assets.xcassets */,
 				ABE7C1DA2C8F407A00843F84 /* Preview Content */,
 			);
@@ -150,6 +150,7 @@
 				ABE7C1D52C8F407900843F84 /* BinaryApp.swift in Sources */,
 				EE8CC6BF2C9C643000088A38 /* HexaView.swift in Sources */,
 				EE6278892C99C74E00116EA5 /* BinaryView.swift in Sources */,
+				EE331C492C9C6864008E2C75 /* DecimalView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
