@@ -31,21 +31,36 @@ struct ContentView: View {
                     NavigationLink("Convert Decimal", destination: DecimalView())
                         .font(.title)
                         .foregroundStyle(.purple)
-                        .brightness(-0.1)
                         .bold()
-                        
+                        .padding()
+                        .overlay(content: {
+                            RoundedRectangle(cornerRadius: 16)
+                                .stroke(.purple, lineWidth: 4) })
+                        .brightness(-0.1)
+
+                    
+                    
                     Spacer()
                     NavigationLink("Convert Binary", destination: BinaryView())
                         .font(.title)
                         .foregroundStyle(.purple)
-                        .brightness(-0.1)
                         .bold()
+                        .padding()
+                        .overlay(content: {
+                            RoundedRectangle(cornerRadius: 16)
+                                .stroke(.purple, lineWidth: 4) })
+                        .brightness(-0.1)
+
                     Spacer()
                     NavigationLink("Convert Hexa", destination: HexaView())
                         .font(.title)
                         .foregroundStyle(.purple)
-                        .brightness(-0.1)
                         .bold()
+                        .padding()
+                        .overlay(content: {
+                            RoundedRectangle(cornerRadius: 16)
+                                .stroke(.purple, lineWidth: 4) })
+                        .brightness(-0.1)
                     Spacer()
                 }
             }
